@@ -1,13 +1,11 @@
-<div class="app">
-  <main>
-    <slot />
-  </main>
-</div>
+<main>
+  <slot />
+</main>
 
 <style>
-  .app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  main {
+    flex: 1;
+    width: 100%;
+    margin: 0;
   }
 </style>
